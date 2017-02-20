@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App Version</key>
+	<integer>41</integer>
+	<key>Auto Layout</key>
+	<false/>
+	<key>Bounds</key>
+	<string>{{256, 213}, {2048, 1071}}</string>
+	<key>Category</key>
+	<integer>0</integer>
+	<key>Display Name</key>
+	<string>iMovie.saved</string>
+	<key>Key Equivalent</key>
+	<string></string>
+	<key>Layout Inset</key>
+	<real>0.0</real>
+	<key>Layouts</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>PEMainWindowModule</string>
+			<key>Content</key>
+			<dict>
+				<key>WindowClass</key>
+				<string>CEWindow</string>
+				<key>WindowState</key>
+				<string>LKKeyWindow</string>
+				<key>WindowStyleMask</key>
+				<string>NSTexturedBackgroundWindowMask NSTitledWindowMask NSClosableWindowMask NSMiniaturizableWindowMask NSResizableWindowMask NSProLargeMetricsMask </string>
+				<key>releasedWhenClosed</key>
+				<false/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{256, 213}, {2048, 1071}}</string>
+				<key>WindowTopLeftOffset</key>
+				<string>{256, -133}</string>
+			</dict>
+			<key>Identifier</key>
+			<string>PEMainWindowModule</string>
+			<key>Submodules</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>CEWorkspaceModule</string>
+					<key>Content</key>
+					<dict>
+						<key>CEWorkspaceLayoutType</key>
+						<integer>2</integer>
+					</dict>
+					<key>Geometry</key>
+					<dict>
+						<key>Frame</key>
+						<string>{{0, 0}, {2048, 1071}}</string>
+					</dict>
+					<key>Identifier</key>
+					<string>PEMainContainerModule</string>
+					<key>Reuse Policy</key>
+					<integer>2</integer>
+					<key>Submodules</key>
+					<array>
+						<dict>
+							<key>Class</key>
+							<string>CEToolbarModule</string>
+							<key>Geometry</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {2049, 39}}</string>
+							</dict>
+							<key>Identifier</key>
+							<string>CEToolbarModule</string>
+							<key>Reuse Policy</key>
+							<integer>2</integer>
+						</dict>
+						<dict>
+							<key>Class</key>
+							<string>CEWorkspaceTabModule</string>
+							<key>Content</key>
+							<dict>
+								<key>ActiveTab</key>
+								<integer>1</integer>
+							</dict>
+							<key>Geometry</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {2048, 1032}}</string>
+							</dict>
+							<key>Identifier</key>
+							<string>CEMainWorkspaceTabModule</string>
+							<key>Reuse Policy</key>
+							<integer>2</integer>
+							<key>Submodules</key>
+							<array>
+								<dict>
+									<key>Class</key>
+									<string>CETheaterContainerModule</string>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {2048, 1032}}</string>
+									</dict>
+									<key>Identifier</key>
+									<string>CETheaterContainer</string>
+									<key>Reuse Policy</key>
+									<integer>2</integer>
+								</dict>
+								<dict>
+									<key>Class</key>
+									<string>CEAllProjectsContainerModule</string>
+									<key>Content</key>
+									<dict>
+										<key>CEAllProjectsFilmstrip</key>
+										<dict>
+											<key>FFFavoriteFilterKey</key>
+											<integer>0</integer>
+											<key>allProjectsArrangeDirection</key>
+											<false/>
+											<key>allProjectsArrangeType</key>
+											<integer>0</integer>
+											<key>arrangeDirection</key>
+											<true/>
+											<key>arrangeType</key>
+											<integer>0</integer>
+											<key>clusterDirection</key>
+											<false/>
+											<key>clusterType</key>
+											<integer>0</integer>
+											<key>displayType</key>
+											<integer>1</integer>
+											<key>filmstripControllerContents</key>
+											<dict>
+												<key>filmstripViewContents</key>
+												<dict>
+													<key>audioHeight</key>
+													<real>0.0</real>
+													<key>clipLabelSize</key>
+													<integer>2</integer>
+													<key>scrollPositionString</key>
+													<string>{0, 0}</string>
+													<key>storedSelectionRangeDataByURL</key>
+													<dict/>
+												</dict>
+											</dict>
+											<key>frameDuration</key>
+											<real>5</real>
+											<key>itemSize</key>
+											<real>80</real>
+											<key>showsClipLabels</key>
+											<real>0.0</real>
+										</dict>
+									</dict>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {2048, 1032}}</string>
+									</dict>
+									<key>Identifier</key>
+									<string>CEAllProjectsModule</string>
+									<key>Reuse Policy</key>
+									<integer>2</integer>
+								</dict>
+								<dict>
+									<key>Class</key>
+									<string>CEBrowsingAndEditingWorkspaceModule</string>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {300, 200}}</string>
+									</dict>
+									<key>Identifier</key>
+									<string>CEBrowsingAndEditingWorkspace</string>
+									<key>Reuse Policy</key>
+									<integer>2</integer>
+									<key>Submodules</key>
+									<array>
+										<dict>
+											<key>Class</key>
+											<string>CEMediaBinContainerModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 0}, {620, 320}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CEMediaBinContainerModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array>
+												<dict>
+													<key>Class</key>
+													<string>CEMediaDetailContainerModule</string>
+													<key>Content</key>
+													<dict>
+														<key>ActiveTab</key>
+														<integer>0</integer>
+														<key>CEMediaDetailContainerRecentMediaTab</key>
+														<integer>0</integer>
+														<key>CEMediaDetailContainerRecentMusic</key>
+														<integer>0</integer>
+														<key>CEMediaDetailContainerRecentMyMedia</key>
+														<integer>0</integer>
+														<key>contentKey-MediaDetailEffectsModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailEventLibraryModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailGarageBandModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailITunesModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailMapModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailPhotoLibraryModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailTitleModule</key>
+														<dict/>
+														<key>contentKey-MediaDetailTransitionModule</key>
+														<dict/>
+														<key>contentKey-OrganizerFilmstripModule</key>
+														<dict>
+															<key>FFFavoriteFilterKey</key>
+															<integer>5</integer>
+															<key>allProjectsArrangeDirection</key>
+															<false/>
+															<key>allProjectsArrangeType</key>
+															<integer>0</integer>
+															<key>arrangeDirection</key>
+															<true/>
+															<key>arrangeType</key>
+															<integer>0</integer>
+															<key>clusterDirection</key>
+															<false/>
+															<key>clusterType</key>
+															<integer>-1</integer>
+															<key>displayType</key>
+															<integer>1</integer>
+															<key>filmstripControllerContents</key>
+															<dict>
+																<key>filmstripViewContents</key>
+																<dict>
+																	<key>audioHeight</key>
+																	<real>0.0</real>
+																	<key>clipLabelSize</key>
+																	<integer>2</integer>
+																	<key>scrollPositionString</key>
+																	<string>{0, 31}</string>
+																	<key>storedSelectionRangeDataByURL</key>
+																	<dict/>
+																</dict>
+															</dict>
+															<key>frameDuration</key>
+															<real>5</real>
+															<key>itemSize</key>
+															<real>80</real>
+															<key>showsClipLabels</key>
+															<real>0.0</real>
+														</dict>
+														<key>contentKey-emptyMediaDetails</key>
+														<dict/>
+													</dict>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {460, 169}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CEMainMediaDetailsContainer</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CESidebarContainerModule</string>
+													<key>Content</key>
+													<dict>
+														<key>kSubmoduleContentDictKey_mediaSidebar</key>
+														<dict>
+															<key>kFFContentDictKey_mediaSidebar</key>
+															<dict>
+																<key>media sidebar expanded items</key>
+																<array>
+																	<string>FFMediaSidebarLibrarySectionNode-LIBRARIES</string>
+																	<string>0A0DD564-813D-4C0C-8689-6FAF2CD894BD-C3EC608A-70E8-4F68-B6C1-0BB861A1BFFC</string>
+																</array>
+															</dict>
+														</dict>
+													</dict>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {160, 169}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CEMainSidebarContainer</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CEContentLibrarySpecifierModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {620, 31}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CEContentLibrarySpecifierModule</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+													<key>Submodules</key>
+													<array/>
+												</dict>
+											</array>
+											<key>canRearrangeLayout</key>
+											<false/>
+											<key>containersLayout</key>
+											<dict>
+												<key>root</key>
+												<dict>
+													<key>CurrentSize</key>
+													<string>{620, 200}</string>
+													<key>allowSeamDragging</key>
+													<true/>
+													<key>items</key>
+													<array>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{620, 31}</string>
+															<key>Identifier</key>
+															<string>CEContentLibrarySpecifierModule</string>
+															<key>isVisible</key>
+															<true/>
+															<key>proportion</key>
+															<real>0.0</real>
+															<key>userResizableOnly</key>
+															<false/>
+														</dict>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{620, 169}</string>
+															<key>allowSeamDragging</key>
+															<true/>
+															<key>items</key>
+															<array>
+																<dict>
+																	<key>CurrentSize</key>
+																	<string>{160, 169}</string>
+																	<key>Identifier</key>
+																	<string>CEMainSidebarContainer</string>
+																	<key>isVisible</key>
+																	<true/>
+																	<key>proportion</key>
+																	<real>0.18500000238418579</real>
+																	<key>userResizableOnly</key>
+																	<false/>
+																</dict>
+																<dict>
+																	<key>CurrentSize</key>
+																	<string>{460, 169}</string>
+																	<key>Identifier</key>
+																	<string>CEMainMediaDetailsContainer</string>
+																	<key>isVisible</key>
+																	<true/>
+																	<key>proportion</key>
+																	<real>0.81499999761581421</real>
+																	<key>userResizableOnly</key>
+																	<false/>
+																</dict>
+															</array>
+															<key>orientation</key>
+															<integer>1</integer>
+															<key>proportion</key>
+															<real>1</real>
+														</dict>
+													</array>
+													<key>orientation</key>
+													<integer>0</integer>
+													<key>proportion</key>
+													<real>0.0</real>
+												</dict>
+											</dict>
+											<key>layerBackedContainer</key>
+											<false/>
+											<key>showWindowFooter</key>
+											<false/>
+										</dict>
+										<dict>
+											<key>Class</key>
+											<string>CEProjectsDetailSwapModule</string>
+											<key>Content</key>
+											<dict>
+												<key>Active Module</key>
+												<string>PEMainEditorContainer</string>
+												<key>Animation Style</key>
+												<string>None</string>
+											</dict>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 0}, {300, 237}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CEProjectsDetailSwapModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array>
+												<dict>
+													<key>Class</key>
+													<string>CEEditorContainerModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {300, 237}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>PEMainEditorContainer</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>Class</key>
+											<string>CEViewerModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 0}, {500, 320}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CEViewerModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array>
+												<dict>
+													<key>Class</key>
+													<string>PEPlayerContainerModule</string>
+													<key>CoachTipSpecifiers</key>
+													<array>
+														<dict>
+															<key>CoachTipKey</key>
+															<string>CameraImportWorkFlow-ImportNoMedia-MainDisplayAreaHelp</string>
+															<key>TargetViewKeyPath</key>
+															<string>view</string>
+														</dict>
+														<dict>
+															<key>CoachTipKey</key>
+															<string>CameraImportWorkFlow-ImportNoMedia-MainDisplayArea</string>
+															<key>TargetViewKeyPath</key>
+															<string>view</string>
+														</dict>
+														<dict>
+															<key>CoachTipKey</key>
+															<string>CameraImportWorkFlow-EventSelected-MainDisplayAreaHelp</string>
+															<key>TargetViewKeyPath</key>
+															<string>view</string>
+														</dict>
+													</array>
+													<key>Content</key>
+													<dict>
+														<key>PEDisplayAreaDefaultMode</key>
+														<integer>0</integer>
+														<key>PEDisplayAreaLayoutAngleViewerVertically</key>
+														<false/>
+														<key>PEDisplayAreaLayoutScopesVertically</key>
+														<false/>
+														<key>PEDisplayAreaMode</key>
+														<integer>4</integer>
+														<key>PEDisplayAreaMultiAngleEditingStyle</key>
+														<integer>0</integer>
+														<key>PEDisplayAreaPlayers</key>
+														<dict>
+															<key>canvas</key>
+															<dict>
+																<key>Origin</key>
+																<string>{0, 0}</string>
+																<key>ZoomFactor</key>
+																<real>0.0</real>
+															</dict>
+														</dict>
+														<key>PEDisplayAreaSplitterPositions</key>
+														<dict>
+															<key>PEDisplayAreaModeViewerOrCanvas</key>
+															<real>1</real>
+														</dict>
+													</dict>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {500, 320}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>PEMainDisplayArea</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CEAdjustmentsInspectorModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {500, 72}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CEAdjustmentsInspector</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+													<key>Submodules</key>
+													<array/>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CEProjectSettingsContainerModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {200, 200}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CEProjectSettingsContainerModule</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CETransportControlsModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 283}, {500, 37}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CETransportControlsModule</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+												</dict>
+											</array>
+										</dict>
+									</array>
+									<key>canRearrangeLayout</key>
+									<false/>
+									<key>containersLayout</key>
+									<dict>
+										<key>root</key>
+										<dict>
+											<key>CurrentSize</key>
+											<string>{300, 200}</string>
+											<key>allowSeamDragging</key>
+											<true/>
+											<key>items</key>
+											<array>
+												<dict>
+													<key>CurrentSize</key>
+													<string>{300, 320}</string>
+													<key>allowSeamDragging</key>
+													<true/>
+													<key>items</key>
+													<array>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{620, 320}</string>
+															<key>Identifier</key>
+															<string>CEMediaBinContainerModule</string>
+															<key>isVisible</key>
+															<true/>
+															<key>proportion</key>
+															<real>0.5</real>
+															<key>userResizableOnly</key>
+															<false/>
+														</dict>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{500, 320}</string>
+															<key>Identifier</key>
+															<string>CEViewerModule</string>
+															<key>isVisible</key>
+															<true/>
+															<key>proportion</key>
+															<real>0.5</real>
+															<key>userResizableOnly</key>
+															<false/>
+														</dict>
+													</array>
+													<key>orientation</key>
+													<integer>1</integer>
+													<key>proportion</key>
+													<real>0.5</real>
+												</dict>
+												<dict>
+													<key>CurrentSize</key>
+													<string>{300, 237}</string>
+													<key>Identifier</key>
+													<string>CEProjectsDetailSwapModule</string>
+													<key>isVisible</key>
+													<true/>
+													<key>proportion</key>
+													<real>0.5</real>
+													<key>userResizableOnly</key>
+													<false/>
+												</dict>
+											</array>
+											<key>orientation</key>
+											<integer>0</integer>
+											<key>proportion</key>
+											<real>0.0</real>
+										</dict>
+									</dict>
+									<key>layerBackedContainer</key>
+									<false/>
+									<key>showWindowFooter</key>
+									<false/>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>canRearrangeLayout</key>
+					<false/>
+					<key>containersLayout</key>
+					<dict>
+						<key>root</key>
+						<dict>
+							<key>CurrentSize</key>
+							<string>{2048, 1071}</string>
+							<key>allowSeamDragging</key>
+							<true/>
+							<key>items</key>
+							<array>
+								<dict>
+									<key>CurrentSize</key>
+									<string>{2048, 39}</string>
+									<key>Identifier</key>
+									<string>CEToolbarModule</string>
+									<key>isVisible</key>
+									<true/>
+									<key>proportion</key>
+									<real>0.0</real>
+									<key>userResizableOnly</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>CurrentSize</key>
+									<string>{2048, 1032}</string>
+									<key>Identifier</key>
+									<string>CEMainWorkspaceTabModule</string>
+									<key>isVisible</key>
+									<true/>
+									<key>proportion</key>
+									<real>1</real>
+									<key>userResizableOnly</key>
+									<false/>
+								</dict>
+							</array>
+							<key>orientation</key>
+							<integer>0</integer>
+							<key>proportion</key>
+							<real>0.0</real>
+						</dict>
+					</dict>
+					<key>layerBackedContainer</key>
+					<false/>
+					<key>showWindowFooter</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Menu Tag</key>
+	<string>12</string>
+	<key>Name</key>
+	<string>Default</string>
+	<key>ScreenSize</key>
+	<string>{2560, 1440}</string>
+	<key>Source Name</key>
+	<string>iMovie</string>
+	<key>Type</key>
+	<integer>5</integer>
+</dict>
+</plist>

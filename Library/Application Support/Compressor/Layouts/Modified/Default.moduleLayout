@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>App Version</key>
+	<integer>6</integer>
+	<key>Auto Layout</key>
+	<false/>
+	<key>Bounds</key>
+	<string>{{0, 486}, {1280, 931}}</string>
+	<key>Category</key>
+	<integer>0</integer>
+	<key>Display Name</key>
+	<string>Default</string>
+	<key>Key Equivalent</key>
+	<string></string>
+	<key>Layout Inset</key>
+	<real>0.0</real>
+	<key>Layouts</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>CQMainWindowModule</string>
+			<key>Content</key>
+			<dict>
+				<key>ToolbarConfiguration</key>
+				<dict>
+					<key>TB Display Mode</key>
+					<integer>2</integer>
+					<key>TB Icon Size Mode</key>
+					<integer>1</integer>
+					<key>TB Is Shown</key>
+					<integer>1</integer>
+					<key>TB Size Mode</key>
+					<integer>1</integer>
+				</dict>
+				<key>WindowClass</key>
+				<string>LKWindow</string>
+				<key>WindowState</key>
+				<string>LKKeyWindow</string>
+				<key>WindowStyleMask</key>
+				<string>NSTexturedBackgroundWindowMask NSTitledWindowMask NSClosableWindowMask NSMiniaturizableWindowMask NSResizableWindowMask NSProLargeMetricsMask</string>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 486}, {1280, 931}}</string>
+				<key>WindowTopLeftOffset</key>
+				<string>{0, 0}</string>
+			</dict>
+			<key>Identifier</key>
+			<string>CQMainWindowModule</string>
+			<key>Submodules</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>CQBorderlessContainerModule</string>
+					<key>Geometry</key>
+					<dict>
+						<key>Frame</key>
+						<string>{{0, 0}, {1280, 862}}</string>
+					</dict>
+					<key>Submodules</key>
+					<array>
+						<dict>
+							<key>Class</key>
+							<string>CQWorkspaceModule</string>
+							<key>Content</key>
+							<dict>
+								<key>selectedTabIndex</key>
+								<integer>0</integer>
+							</dict>
+							<key>Geometry</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {1280, 862}}</string>
+							</dict>
+							<key>Identifier</key>
+							<string>CQWorkspaceModule</string>
+							<key>Reuse Policy</key>
+							<integer>2</integer>
+							<key>Submodules</key>
+							<array>
+								<dict>
+									<key>Class</key>
+									<string>CQCurrentBatchModule</string>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {1280, 862}}</string>
+									</dict>
+									<key>Submodules</key>
+									<array>
+										<dict>
+											<key>Class</key>
+											<string>CQPresetsModule</string>
+											<key>Content</key>
+											<dict>
+												<key>selectedTabIndex</key>
+												<integer>0</integer>
+											</dict>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 0}, {100, 100}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CQPresetsModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array>
+												<dict>
+													<key>Class</key>
+													<string>CQSettingsModule</string>
+													<key>Geometry</key>
+													<dict>
+														<key>Frame</key>
+														<string>{{0, 0}, {100, 100}}</string>
+													</dict>
+													<key>Identifier</key>
+													<string>CQSettingsModule</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+													<key>Submodules</key>
+													<array/>
+												</dict>
+												<dict>
+													<key>Class</key>
+													<string>CQDestinationsModule</string>
+													<key>Identifier</key>
+													<string>CQDestinationsModule</string>
+													<key>Reuse Policy</key>
+													<integer>2</integer>
+													<key>Submodules</key>
+													<array/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>Class</key>
+											<string>CQPreviewModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 0}, {1280, 411}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CQPreviewModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array/>
+										</dict>
+										<dict>
+											<key>Class</key>
+											<string>CQBatchDocumentModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 29}, {1280, 382}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CQBatchDocumentModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+										</dict>
+									</array>
+									<key>canRearrangeLayout</key>
+									<false/>
+									<key>containersLayout</key>
+									<dict>
+										<key>root</key>
+										<dict>
+											<key>CurrentSize</key>
+											<string>{1280, 862}</string>
+											<key>allowSeamDragging</key>
+											<true/>
+											<key>items</key>
+											<array>
+												<dict>
+													<key>Identifier</key>
+													<string>CQPresetsModule</string>
+													<key>isVisible</key>
+													<false/>
+													<key>proportion</key>
+													<real>0.20000000298023224</real>
+													<key>userResizableOnly</key>
+													<false/>
+												</dict>
+												<dict>
+													<key>CurrentSize</key>
+													<string>{1280, 862}</string>
+													<key>allowSeamDragging</key>
+													<true/>
+													<key>items</key>
+													<array>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{1280, 431}</string>
+															<key>Identifier</key>
+															<string>CQPreviewModule</string>
+															<key>isVisible</key>
+															<true/>
+															<key>proportion</key>
+															<real>0.5</real>
+															<key>userResizableOnly</key>
+															<false/>
+														</dict>
+														<dict>
+															<key>CurrentSize</key>
+															<string>{1280, 431}</string>
+															<key>Identifier</key>
+															<string>CQBatchDocumentModule</string>
+															<key>isVisible</key>
+															<true/>
+															<key>proportion</key>
+															<real>0.5</real>
+															<key>userResizableOnly</key>
+															<false/>
+														</dict>
+													</array>
+													<key>orientation</key>
+													<integer>0</integer>
+													<key>proportion</key>
+													<real>0.80000001192092896</real>
+												</dict>
+											</array>
+											<key>orientation</key>
+											<integer>1</integer>
+											<key>proportion</key>
+											<real>0.0</real>
+										</dict>
+									</dict>
+									<key>layerBackedContainer</key>
+									<false/>
+									<key>showWindowFooter</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>Class</key>
+									<string>CQBorderlessContainerModule</string>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {300, 200}}</string>
+									</dict>
+									<key>Submodules</key>
+									<array>
+										<dict>
+											<key>Class</key>
+											<string>CQActiveBatchesModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 29}, {300, 151}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CQActiveBatchesModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array/>
+										</dict>
+									</array>
+									<key>canRearrangeLayout</key>
+									<false/>
+									<key>containersLayout</key>
+									<dict>
+										<key>root</key>
+										<dict>
+											<key>CurrentSize</key>
+											<string>{300, 200}</string>
+											<key>Identifier</key>
+											<string>CQActiveBatchesModule</string>
+											<key>isVisible</key>
+											<true/>
+											<key>proportion</key>
+											<real>0.0</real>
+											<key>userResizableOnly</key>
+											<false/>
+										</dict>
+									</dict>
+									<key>layerBackedContainer</key>
+									<false/>
+									<key>showWindowFooter</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>Class</key>
+									<string>CQBorderlessContainerModule</string>
+									<key>Geometry</key>
+									<dict>
+										<key>Frame</key>
+										<string>{{0, 0}, {300, 200}}</string>
+									</dict>
+									<key>Submodules</key>
+									<array>
+										<dict>
+											<key>Class</key>
+											<string>CQCompletedBatchesModule</string>
+											<key>Geometry</key>
+											<dict>
+												<key>Frame</key>
+												<string>{{0, 29}, {300, 151}}</string>
+											</dict>
+											<key>Identifier</key>
+											<string>CQCompletedBatchesModule</string>
+											<key>Reuse Policy</key>
+											<integer>2</integer>
+											<key>Submodules</key>
+											<array/>
+										</dict>
+									</array>
+									<key>canRearrangeLayout</key>
+									<false/>
+									<key>containersLayout</key>
+									<dict>
+										<key>root</key>
+										<dict>
+											<key>CurrentSize</key>
+											<string>{300, 200}</string>
+											<key>Identifier</key>
+											<string>CQCompletedBatchesModule</string>
+											<key>isVisible</key>
+											<true/>
+											<key>proportion</key>
+											<real>0.0</real>
+											<key>userResizableOnly</key>
+											<false/>
+										</dict>
+									</dict>
+									<key>layerBackedContainer</key>
+									<false/>
+									<key>showWindowFooter</key>
+									<false/>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>Class</key>
+							<string>CQInspectorModule</string>
+							<key>Geometry</key>
+							<dict>
+								<key>Frame</key>
+								<string>{{0, 0}, {480, 272}}</string>
+							</dict>
+							<key>Identifier</key>
+							<string>CQInspectorModule</string>
+							<key>Reuse Policy</key>
+							<integer>2</integer>
+						</dict>
+					</array>
+					<key>canRearrangeLayout</key>
+					<false/>
+					<key>containersLayout</key>
+					<dict>
+						<key>root</key>
+						<dict>
+							<key>CurrentSize</key>
+							<string>{1280, 862}</string>
+							<key>allowSeamDragging</key>
+							<true/>
+							<key>items</key>
+							<array>
+								<dict>
+									<key>CurrentSize</key>
+									<string>{1280, 862}</string>
+									<key>Identifier</key>
+									<string>CQWorkspaceModule</string>
+									<key>isVisible</key>
+									<true/>
+									<key>proportion</key>
+									<real>1</real>
+									<key>userResizableOnly</key>
+									<false/>
+								</dict>
+								<dict>
+									<key>Identifier</key>
+									<string>CQInspectorModule</string>
+									<key>isVisible</key>
+									<false/>
+									<key>proportion</key>
+									<real>0.0</real>
+									<key>userResizableOnly</key>
+									<false/>
+								</dict>
+							</array>
+							<key>orientation</key>
+							<integer>1</integer>
+							<key>proportion</key>
+							<real>0.0</real>
+						</dict>
+					</dict>
+					<key>layerBackedContainer</key>
+					<false/>
+					<key>showWindowFooter</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Name</key>
+	<string>Default</string>
+	<key>ScreenSize</key>
+	<string>{2560, 1440}</string>
+	<key>Source Name</key>
+	<string>Default</string>
+	<key>Type</key>
+	<integer>6</integer>
+</dict>
+</plist>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logs tms="472388994.754" tmt="12/21/2015 11:09:54.754" pnm="CompressorTranscoder">
+<mrk tms="472388994.754" tmt="12/21/2015 11:09:54.754" pid="1850" kind="begin" what="log-session"/>
+<mrk tms="472388999.575" tmt="12/21/2015 11:09:59.575" pid="1861" kind="begin" what="log-session"/>

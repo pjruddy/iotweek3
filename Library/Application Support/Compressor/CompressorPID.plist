@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contentcontroller:com.apple.qmaster.contentagent</key>
+	<array>
+		<integer>1859</integer>
+	</array>
+	<key>jobcontroller:com.apple.compressor.cluster.admin</key>
+	<array>
+		<integer>1860</integer>
+	</array>
+	<key>servicecontroller:com.apple.stomp.transcoder.stomp</key>
+	<array>
+		<integer>1861</integer>
+	</array>
+</dict>
+</plist>

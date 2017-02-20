@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Amps and Pedals</key>
+	<integer>0</integer>
+	<key>Delay</key>
+	<integer>0</integer>
+	<key>Distortion</key>
+	<integer>0</integer>
+	<key>Dynamics</key>
+	<integer>0</integer>
+	<key>EQ</key>
+	<integer>0</integer>
+	<key>Filter</key>
+	<integer>0</integer>
+	<key>Imaging</key>
+	<integer>0</integer>
+	<key>Metering</key>
+	<integer>0</integer>
+	<key>Modulation</key>
+	<integer>0</integer>
+	<key>Pitch</key>
+	<integer>0</integer>
+	<key>Reverb</key>
+	<integer>0</integer>
+	<key>Specialized</key>
+	<integer>0</integer>
+	<key>Utility</key>
+	<integer>0</integer>
+</dict>
+</plist>

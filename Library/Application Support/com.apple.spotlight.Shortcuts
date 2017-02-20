@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>google</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Internet Accounts</string>
+		<key>LAST_USED</key>
+		<date>2017-01-30T14:02:51Z</date>
+		<key>URL</key>
+		<string>file:///System/Library/PreferencePanes/InternetAccounts.prefPane/</string>
+	</dict>
+	<key>https://goo.gl/H5kUr5</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>https://goo.gl/H5kUr5</string>
+		<key>LAST_USED</key>
+		<date>2017-01-30T14:05:10Z</date>
+		<key>URL</key>
+		<string>https://goo.gl/H5kUr5</string>
+	</dict>
+	<key>https://goo.gl/Mxg5Qz</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>https://goo.gl/Mxg5Qz</string>
+		<key>LAST_USED</key>
+		<date>2017-02-06T14:01:17Z</date>
+		<key>URL</key>
+		<string>https://goo.gl/Mxg5Qz</string>
+	</dict>
+	<key>mouse</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Mouse</string>
+		<key>LAST_USED</key>
+		<date>2017-01-30T14:03:02Z</date>
+		<key>URL</key>
+		<string>file:///System/Library/PreferencePanes/Mouse.prefPane/</string>
+	</dict>
+	<key>ter</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Terminal</string>
+		<key>LAST_USED</key>
+		<date>2017-01-26T13:33:32Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Utilities/Terminal.app/</string>
+	</dict>
+	<key>terminal</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Terminal</string>
+		<key>LAST_USED</key>
+		<date>2017-02-06T14:44:44Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Utilities/Terminal.app/</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Samsung ARTIK: Connect Samsung ARTIK devices to the cloud</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="description" content="Temboo helps developers connect Samsung ARTIK devices to the cloud. Learn more about the ARTIK programming tools that Temboo offers."><meta name="viewport" content="initial-scale=1">
+	<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAADNQTFRFAAAA9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9Hkk9HkkWNe71AAAABB0Uk5TABAgMEBQYHCAj5+vv8/f7yMagooAAABwSURBVBjTVU7bFsMgCIstUp1K+f+vHZfurOaFJEAAMBxdVFVaQaLemrgptf5xmi7RX315ETPab5a8w4Dn1dhlYwOnDzzpRmdsrLcxPOsITWFE+PSXitOOvC9MLDmrGxp244PNkIq3MThvT0e76HkFXyfdCfmGA80zAAAAAElFTkSuQmCC" type="image/png"/>
+	
+	<meta property="og:title" content="Samsung ARTIK: Connect Samsung ARTIK devices to the cloud"/><meta property="og:type" content="website"/><meta property="og:image" content="https://temboo.com/files/temboo-drop-orange.png"/><meta property="og:url" content="https://temboo.com/hardware/samsung/"/><meta property="og:description" content="A cloud-based code generation platform with 2000+ processes for APIs, databases, and more. Reimagining programming for software & hardware developers."/>	
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"/>
+		<link rel="stylesheet" type="text/css" href="https://temboo.com/files,_cms.css+files,_temboo.css+files,_temboo.widgets.css+files,_layout.css+css,_prettify.css+files,_hardware.css+files,_languages.css+files,_tutorials.css.pagespeed.cc.pjc_6_EPz7.css"/>
+		
+		
+		
+		
+		
+		
+		
+	
+	<!--[if ie 8]><link rel="stylesheet" type="text/css" href="https://temboo.com/files/layout-ie8.css"><![endif]-->
+	<!--[if lt ie 8]><link rel="stylesheet" type="text/css" href="https://temboo.com/files/layout-ie7.css"><![endif]-->
+	
+	<script>var TEMBOO_CSRF_NAME="temboo_session_csrf";var TEMBOO_CSRF_HASH="12716c5c2f82eed1dcbe6b8337b75d88";</script>
+		<script type="text/javascript" src="/js/jquery-1.8.3.min.js.pagespeed.jm.0IhQ85x_cu.js"></script>
+		<script src="/js,_ZeroClipboard.min.js+files,_temboo.js+files,_common.js+files,_jquery.history.js.pagespeed.jc.4-T-8ITktl.js"></script><script>eval(mod_pagespeed_BQAvryKUr8);</script>
+		<script>eval(mod_pagespeed_iaR3lzeoYT);</script>
+		<script>eval(mod_pagespeed_jRBVxkKIAf);</script>
+		<script>eval(mod_pagespeed_ZEAgHqhqwO);</script>
+		<script type="text/javascript" src="https://temboo.com/files/jquery.jstree.js"></script>
+		<script src="https://temboo.com/files/jquery.temboo.js+temboo.classes.js+temboo.messaging.js+temboo.snippets.js.pagespeed.jc.YGpU1KWW3W.js"></script><script>eval(mod_pagespeed_F5n5_6Lot5);</script>
+		<script>eval(mod_pagespeed_ihA4cuC4RT);</script>
+		<script>eval(mod_pagespeed_J71B6yoVHn);</script>
+		<script>eval(mod_pagespeed_SN4HYiS9N_);</script>
+		<script src="https://temboo.com/files,_temboo.widgets.js+js,_prettify,_prettify.js.pagespeed.jc.zzfSQT1kso.js"></script><script>eval(mod_pagespeed_sQlVND9aBo);</script>
+		<script>eval(mod_pagespeed_u7pSeu0zQV);</script>
+		<script type="text/javascript" src="/js/jquery.validate.js.pagespeed.jm.PK7NFELLTs.js"></script>
+	
+	<script type="text/javascript">$(function(){Temboo.setEnv('development-mode');});</script>
+
+	<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-17339105-1']);_gaq.push(['_setDomainName','temboo.com']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+	
+	
+</head>
+<body id="page-hardwaresamsung-index" class="temboo ">
+
+<noscript><div class="js-warning"><p>Sorry, Temboo requires JavaScript! Please enable it in your browser and try again.</p></div></noscript>
+
+<div id="loading-bar"></div>
+
+<div id="header-outer">
+	<div id="header-inner">
+		<div id="header">
+<div id="logo"><a href="/" target="_parent"><script pagespeed_no_defer="" type="text/javascript">//<![CDATA[
+(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://temboo.com/hardware/samsung','TSPFXcmHZO',true,false,'wuqFkefa5bc');
+//]]></script><img src="/assets/xlogo-header.png.pagespeed.ic.kVq1vu9-YV.png" alt="Temboo" pagespeed_url_hash="2268650493" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a></div>
+<div id="navigation" class="logged-out">
+<div id="nav-links">
+<a id="navigation_library" class="nav-link" href="/library" target="_parent">Code Gen</a>
+<a id="navigation_iotapps" class="nav-link" href="/iotapps" target="_parent">IoT Apps</a>
+<div class="callout-container documentation">
+			<span id="navigation_documentation" class="nav-link">Docs</span>
+			<div class="hover-container">
+				<div class="callout shadow">
+					<div class="arrow top"></div>
+					<ul class="subnav">
+						<a href="/hardware/samsung">
+							<li class="samsung">
+								<div class="sdk-icon"></div>
+								<div class="sdk-text">Samsung ARTIK</div>
+							</li>
+						</a>
+						<a href="/hardware/ti">
+							<li class="ti">
+								<div class="sdk-icon"></div>
+								<div class="sdk-text">Texas Instruments</div>
+							</li>
+						</a>
+						<a href="/arduino">
+							<li class="arduino">
+								<div class="sdk-icon"></div>
+								<div class="sdk-text">Arduino</div>
+							</li>
+						</a>
+						<hr/>
+						<div class="language-col left">
+							<a href="/android">
+								<li class="android">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Android</div>
+								</li>
+							</a>
+							<a href="/csharp">
+								<li class="csharp">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">C#</div>
+								</li>
+							</a>
+							<a href="/ios">
+								<li class="ios">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">iOS</div>
+								</li>
+							</a>
+							<a href="/java">
+								<li class="java">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Java</div>
+								</li>
+							</a>
+							<a href="/javascript">
+								<li class="javascript">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">JavaScript</div>
+								</li>
+							</a>
+							<a href="/nodejs">
+								<li class="nodejs">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Node.js</div>
+								</li>
+							</a>
+						</div>
+							<div class="language-col right">
+							<a href="/php">
+								<li class="php">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">PHP</div>
+								</li>
+							</a>
+							<a href="/processing">
+								<li class="processing">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Processing</div>
+								</li>
+							</a>
+							<a href="/python">
+								<li class="python">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Python</div>
+								</li>
+							</a>
+							<a href="/restapi">
+								<li class="rest_json">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">REST API</div>
+								</li>
+							</a>
+							<a href="/ruby">
+								<li class="ruby">
+									<div class="sdk-icon"></div>
+									<div class="sdk-text">Ruby</div>
+								</li>
+							</a>
+						</div>
+						<hr/>
+						<a href="/support">
+							<li class="support">
+								<div class="sdk-icon"></div>
+								<div class="sdk-text">Need help getting started?</div>
+							</li>
+						</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<div class="callout-container login">
+    <a id="navigation_login" class="login-link nav-link" href="">log in</a>
+    <div class="hover-container">
+	    <div class="callout shadow">
+	        <div class="arrow top"></div>
+	        <div id="old-login-lightbox">
+	        	<h3 class="title">Welcome back!</h3>
+	        	<div class="password-success-message"></div>
+	            <div class="old-login">
+
+	                <form name="old-login" action="/session/authenticate/" method="POST">
+	                    <input type="text" name="username" id="username" placeholder="Account name or email address"/>
+	                    <input type="password" name="password" id="password" placeholder="Password"/>
+	                    <div class="forgot-container">
+	                        <a id="forgot" class="body" tabindex="-1" href="">Forgot your password?</a>
+	                    </div>
+	                    <div class="spinner-container">
+	                        <button class="button xlarge green" type="submit">Log in</button>
+	                        <div class="spinner center"></div>
+	                    </div>
+	                </form>
+	            </div>
+	        </div>
+
+	        <div id="old-forgot">
+	            <h3 class="title">Forgot your password?</h3>
+	            <form name="old-forgot" action="/session/passwordResetRequest/" method="POST">
+	                <input type="text" name="username" id="forgot_username" placeholder="Account name or email address"/>
+	                <div class="buttons spinner-container">
+	                    <button id="forgot_cancel" class="button white customCancel" name="customCancel" type="button">Cancel</button>
+	                    <button id="forgot_submit" class="button submit" name="submit" type="submit">Submit</button>
+	                    <div class="spinner right"></div>
+	                </div>
+	            </form>
+	        </div>
+	    </div>
+	</div>
+</div>
+
+</div>
+</div> 
+		</div>
+	</div>
+</div>
+
+	<div id="hardware-navigation">
+<h2 class="column-title"><a href="/hardware">Hardware</a></h2>
+<ul>
+
+<li><h4>platforms</h4></li>
+<ul>
+<li id="hardware-nav-samsung"><a href="/hardware/samsung">Samsung</a></li>
+<li id="hardware-nav-ti"><a href="/hardware/ti">Texas Instruments</a></li>
+<li id="hardware-nav-arduino"><a href="/hardware/arduino">Arduino</a></li>
+</ul>
+<li><h4>connectivity</h4></li>
+<ul>
+<li id="hardware-nav-bluetooth"><a href="/hardware/bluetooth">Bluetooth</a></li>
+<li id="hardware-nav-ethernet"><a href="/hardware/ethernet">Ethernet</a></li>
+<li id="hardware-nav-wifi"><a href="/hardware/wifi">WiFi</a></li>
+<li id="hardware-nav-gsm"><a href="/hardware/gsm">GSM</a></li>
+</ul>
+
+</ul>
+</div><div id="page" class="hardwaresamsung home">
+    <div id="hardwaresamsung">
+        <div id="hardwaresamsung-page">
+                        <div class="tutorial-landing" id="samsung">
+
+<!-- HEADER -->
+
+<div class="header-image" id="samsung-header"></div>
+
+<!-- TUTORIALS -->
+
+<div class="section" id="tutorials">
+
+<h2>Samsung ARTIK comes loaded with Temboo.</h2>
+
+<a href="/hardware/samsung/getting-started">
+<div class="button xlarge green">
+Get Started Now
+</div>
+</a>
+
+</div>
+
+<!-- SENDING SENSOR DATA -->
+
+<div class="section" id="examples">
+
+<h2>Our most popular tutorials.</h2>
+
+<a href="/hardware/samsung/send-an-email">
+<div class="example" id="gmail">
+Email sensor values with Gmail 
+</div>
+</a>
+
+<a href="/hardware/samsung/update-google-spreadsheet">
+<div class="example" id="googledrive">
+Post sensor data to a Google Spreadsheet
+</div>
+</a>
+
+<a href="/hardware/samsung/control-by-phone">
+<div class="example example-center" id="nexmo">
+Control your ARTIK by  phone
+</div>
+</a>
+
+</div>
+
+<!-- EXAMPLES -->
+
+<div class="section" id="examples">
+
+<h2>A few examples of what your ARTIK can do with Temboo in minutes.</h2>
+
+<a href="/hardware/samsung/send-sms">
+<div class="example" id="twilio">
+Send SMS sensor alerts with Twilio
+</div>
+</a>
+
+<a href="/hardware/samsung/create-zendesk-ticket">
+<div class="example" id="zendesk">
+Create sensor-driven Zendesk tickets
+</div>
+</a>
+
+<a href="/hardware/samsung/microsoft-power-bi">
+<div class="example" id="powerbi">
+Graph data with Microsoft Power BI 
+</div>
+</a>
+
+<a href="/hardware/samsung/google-big-query">
+<div class="example" id="bigquery">
+Send sensor data to Google BigQuery 
+</div>
+</a>
+
+</div>
+
+<!-- MISC -->
+
+<div class="section" id="tutorials">
+
+<h2>Powerful features take your application to the next level.</h2>
+
+<a href="/hardware/conditions">
+<div id="conditions" class="tutorial">
+<div class="default">
+<h3>Conditions</h3>
+</div>
+<div class="hover">
+<h3>Setting Conditions</h3>
+<p>Visually configure your hardware to trigger and respond to web-based processes.</p>
+</div>
+</div>
+</a>
+
+<a href="/hardware/profiles">
+<div id="profiles" class="tutorial">
+<div class="default">
+<h3>Profiles</h3>
+</div>
+<div class="hover">
+<h3>Using Profiles</h3>
+<p>Save and organize your API credentials while conserving RAM, and reprogram your board remotely.</p>
+</div>
+</div>
+</a>
+
+<a href="/hardware/samsung/output-filters">
+<div id="outputfilters" class="tutorial tutorial-right">
+<div class="default">
+<h3>Output Filters</h3>
+</div>
+<div class="hover">
+<h3>Output Filters</h3>
+<p>Filter API responses so that they return only the data you care about.</p>
+</div>
+</div>
+</a>
+
+</div>
+
+
+<!-- M2M -->
+
+<div class="section" id="m2m">
+
+<h2>Multi-device programming with M2M messaging.</h2>
+
+<div id="m2m-examples">
+
+<a href="/hardware/m2m-mqtt" title="MQTT">
+<div class="m2m example" id="mqtt">
+<p>MQTT</p>
+</div>
+</a>
+
+<a href="/hardware/m2m-coap" title="CoAP">
+<div class="m2m example" id="coap">
+<p>CoAP</p>
+</div>
+</a>
+
+<a href="/hardware/m2m-http" title="HTTP">
+<div class="m2m example" id="http">
+<p>HTTP</p>
+</div>
+</a>
+
+</div>
+
+</div>
+
+<!-- IOT APPS -->
+
+<div class="section" id="iotapps">
+
+<h2>Download pre-built industrial IoT Applications.</h2>
+
+<a href="/iot-applications">
+<div class="resource" id="iotapps">
+<p>IoT Applications</p>
+</div>
+</a>
+
+</div>
+
+
+<!-- RESOURCES -->
+
+<div class="section" id="resources">
+
+<h2>Make smarter. Learn how.</h2>
+
+<a href="/hardware/samsung/interpreting-outputs">
+<div class="resource resource-tutorial" id="interpretingoutputs">
+Interpreting Outputs
+</div>
+</a>
+
+<a href="/hardware/temboo-tokens">
+<div class="resource resource-tutorial" id="buildchoreos">
+Remotely Control your ARTIK
+</div>
+</a>
+
+<a href="https://www.artik.io" target="_blank">
+<div class="resource">
+Get an ARTIK
+</div>
+</a>
+
+<a href="https://www.artik.io/gettingstarted" target="_blank">
+<div class="resource">
+Get Started With ARTIK
+</div>
+</a>
+
+</div>
+
+<!-- -->
+
+<div>            <!-- Placeholders for testing styles. Delete when satisfied.-->
+        </div>
+    </div>
+</div><div id="footer-outer"><div id="footer-inner"><div id="footer">
+	<ul class="product">
+<lh>Product</lh>
+<li><a id="footer-library" href="/library">Code Gen</a></li>
+<li><a id="footer-iot" href="/iotapps">IoT Apps</a></li>
+<li><a id="footer-pricing" href="/pricing">Pricing</a></li>
+</ul>
+
+<ul class="learn">
+<lh>Learn</lh>
+<li><a id="footer-documentation" href="/support">Docs</a></li>
+<li><a id="footer-videos" href="/deconstructingiot">Videos</a></li>
+<li><a id="footer-support" href="/support">Support</a></li>
+</ul>
+
+<ul class="company">
+<lh>About</lh>
+<li><a id="footer-about" href="/team">Team</a></li>
+<li><a id="footer-buzz" href="/ingoodcompany">Buzz</a></li>
+<li><a id="footer-jobs" href="/jobs">Jobs</a></li>
+<li><a id="footer-contact" href="/contact">Contact</a></li>
+</ul>
+
+<ul class="follow">
+<lh>Share</lh>
+<li><a id="footer-blog" href="/blog">Blog</a></li>
+<li><a id="footer-referrals" href="/account/referrals">Refer Friends</a></li>
+<li><a id="footer-twitter" href="https://twitter.com/temboo" target="_blank">@temboo</a></li>
+<li><a id="footer-youtube" href="https://www.youtube.com/temboo" target="_blank">YouTube</a></li>
+</ul>
+
+<ul class="more">
+<lh>More</lh>
+<li><a id="footer-chipsets" href="/iot-chipsets">Manufacturing chips?</a></li>
+<li><a id="footer-hardware" href="/hardware">Connecting hardware?</a></li>
+<li><a id="footer-platform" href="/platform">Platform</a></li>
+</ul>
+
+<p class="copyright">
+<a id="footer-terms" href="/terms">Terms</a>
+<a id="footer-privacy" href="/privacy">Privacy</a>
+&copy; 2017 Temboo, Inc
+</p>	<div class="clr"></div>
+</div></div></div>
+
+<script type="text/javascript">$(function(){$('form').append('<input type="hidden" name="temboo_session_csrf" value="12716c5c2f82eed1dcbe6b8337b75d88" />');});$(function(){$('body').append('<style>body { }</style>');});</script>
+</body>
+</html>

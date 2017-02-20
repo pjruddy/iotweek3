@@ -1,0 +1,18 @@
+mkdir
+firtsrepo
+mkdir iotweek1
+ls
+vd iotweek1
+cd iotweek1
+git init firstrepo
+ls
+cd firstrepo
+git status
+touch readme.md
+git add readme.md
+git status
+git commit -m "Add Readme file"
+git remote add origin https://github.com/pjruddy/firtsrepo.git
+git push -u origin master
+git push -u origin master
+git push -u origin master

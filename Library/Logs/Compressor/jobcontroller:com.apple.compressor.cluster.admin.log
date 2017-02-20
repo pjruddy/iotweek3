@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logs tms="472388994.655" tmt="12/21/2015 11:09:54.655" pnm="CompressorJobController">
+<mrk tms="472388994.655" tmt="12/21/2015 11:09:54.655" pid="1849" kind="begin" what="log-session"/>
+<mrk tms="472388999.494" tmt="12/21/2015 11:09:59.494" pid="1860" kind="begin" what="log-session"/>

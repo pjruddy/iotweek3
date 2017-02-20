@@ -1,0 +1,68 @@
+01/26/17 13:04:27:636 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | >>> Adobe Updater Log Begin >>>
+01/26/17 13:04:27:636 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | Application Version: 9.0.0.15
+01/26/17 13:04:27:636 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | cmdline option: -logFile = /Users/s00168853/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+01/26/17 13:04:27:636 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | cmdline option: -logLevel = 2
+01/26/17 13:04:27:636 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | StartupUtility : Loaded at startup/logon.
+01/26/17 13:04:27:781 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | CheckIfUpdaterIsEnabled : UpdaterIsNotEnabled.
+01/26/17 13:04:27:781 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | StartupUtility : WARNING - Updater is NOT enabled.
+01/26/17 13:04:27:781 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | Updater has never been run on the machine.
+01/26/17 13:04:27:781 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | StartupUtility : Window is NOT Elapsed.
+01/26/17 13:04:27:781 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : inside initialize.
+01/26/17 13:04:29:517 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : inside getLatestGCApplication.
+01/26/17 13:04:29:732 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : inside waitForCFUCallBack.
+01/26/17 13:04:35:876 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : AdobeGC_CFUCallbackFn is invoked
+01/26/17 13:04:35:876 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : inside invokeGCApplication.
+01/26/17 13:05:06:157 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : AdobeGC_ReleaseRef called.
+01/26/17 13:05:06:157 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : inside finalize.
+01/26/17 13:05:06:157 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 296908 | AdobeUpdaterGoCartLauncher : unloaded goCart library
+01/30/17 14:02:34:844 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | >>> Adobe Updater Log Begin >>>
+01/30/17 14:02:34:869 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | Application Version: 9.0.0.15
+01/30/17 14:02:34:869 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | cmdline option: -logFile = /Users/s00168853/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+01/30/17 14:02:34:869 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | cmdline option: -logLevel = 2
+01/30/17 14:02:34:869 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | StartupUtility : Loaded at startup/logon.
+01/30/17 14:02:34:870 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | CheckIfUpdaterIsEnabled : UpdaterIsNotEnabled.
+01/30/17 14:02:34:870 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | StartupUtility : WARNING - Updater is NOT enabled.
+01/30/17 14:02:34:870 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | Updater has never been run on the machine.
+01/30/17 14:02:34:870 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | StartupUtility : Window is NOT Elapsed.
+01/30/17 14:02:34:870 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : inside initialize.
+01/30/17 14:02:35:171 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : inside getLatestGCApplication.
+01/30/17 14:02:35:363 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : inside waitForCFUCallBack.
+01/30/17 14:02:37:444 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : AdobeGC_CFUCallbackFn is invoked
+01/30/17 14:02:37:444 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : inside invokeGCApplication.
+01/30/17 14:03:07:526 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : AdobeGC_ReleaseRef called.
+01/30/17 14:03:07:526 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : inside finalize.
+01/30/17 14:03:07:526 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 52030 | AdobeUpdaterGoCartLauncher : unloaded goCart library
+02/02/17 13:02:12:629 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | >>> Adobe Updater Log Begin >>>
+02/02/17 13:02:12:747 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | Application Version: 9.0.0.15
+02/02/17 13:02:12:747 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | cmdline option: -logFile = /Users/s00168853/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+02/02/17 13:02:12:747 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | cmdline option: -logLevel = 2
+02/02/17 13:02:12:747 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | StartupUtility : Loaded at startup/logon.
+02/02/17 13:02:12:839 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | CheckIfUpdaterIsEnabled : UpdaterIsNotEnabled.
+02/02/17 13:02:12:839 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | StartupUtility : WARNING - Updater is NOT enabled.
+02/02/17 13:02:12:839 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | Updater has never been run on the machine.
+02/02/17 13:02:12:839 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | StartupUtility : Window is NOT Elapsed.
+02/02/17 13:02:12:839 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : inside initialize.
+02/02/17 13:02:14:740 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : inside getLatestGCApplication.
+02/02/17 13:02:14:945 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : inside waitForCFUCallBack.
+02/02/17 13:02:31:319 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : AdobeGC_CFUCallbackFn is invoked
+02/02/17 13:02:31:319 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : inside invokeGCApplication.
+02/02/17 13:03:01:447 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : AdobeGC_ReleaseRef called.
+02/02/17 13:03:01:447 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : inside finalize.
+02/02/17 13:03:01:447 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 56734 | AdobeUpdaterGoCartLauncher : unloaded goCart library
+02/06/17 13:45:26:945 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | >>> Adobe Updater Log Begin >>>
+02/06/17 13:45:26:976 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | Application Version: 9.0.0.15
+02/06/17 13:45:26:976 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | cmdline option: -logFile = /Users/s00168853/Library/Application Support/Adobe/AAMUpdater/1.0/aamul.log
+02/06/17 13:45:26:976 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | cmdline option: -logLevel = 2
+02/06/17 13:45:26:976 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | StartupUtility : Loaded at startup/logon.
+02/06/17 13:45:26:977 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | CheckIfUpdaterIsEnabled : UpdaterIsNotEnabled.
+02/06/17 13:45:26:977 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | StartupUtility : WARNING - Updater is NOT enabled.
+02/06/17 13:45:26:978 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | Updater has never been run on the machine.
+02/06/17 13:45:26:978 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | StartupUtility : Window is NOT Elapsed.
+02/06/17 13:45:26:978 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : inside initialize.
+02/06/17 13:45:29:291 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : inside getLatestGCApplication.
+02/06/17 13:45:29:353 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : inside waitForCFUCallBack.
+02/06/17 13:45:32:375 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : AdobeGC_CFUCallbackFn is invoked
+02/06/17 13:45:32:375 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : inside invokeGCApplication.
+02/06/17 13:46:02:733 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : AdobeGC_ReleaseRef called.
+02/06/17 13:46:02:733 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : inside finalize.
+02/06/17 13:46:02:733 | [INFO] |  | UPDATER | STARTUPUTILITY |  |  |  | 232949 | AdobeUpdaterGoCartLauncher : unloaded goCart library

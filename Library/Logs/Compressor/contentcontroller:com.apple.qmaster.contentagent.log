@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<logs tms="472388994.600" tmt="12/21/2015 11:09:54.600" pnm="ContentAgent">
+<mrk tms="472388994.600" tmt="12/21/2015 11:09:54.600" pid="1848" kind="begin" what="log-session"/>
+<mrk tms="472388999.431" tmt="12/21/2015 11:09:59.431" pid="1859" kind="begin" what="log-session"/>

@@ -1,0 +1,38 @@
+ Time	               Bundle ID	              Status	Comment
+0.000	                       -	                   -	TALagent Started (system uptime: 5154.50 sec, current time: 507733320.29)
+0.003	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
+0.004	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
+0.004	                       -	                   -	Blocking app contact
+0.747	                       -	                   -	Successfully read encryption key from keychain in 0.744167 seconds
+3.004	                       -	                   -	Allowing apps to contact us
+3.004	                       -	                   -	Liveness: 2 -> 1 (__create_xpc_listener_block_invoke)
+8.982	                       -	                   -	Liveness: 1 -> 2 (server_show_windows_for_asns)
+8.982	                       -	                   -	server_show_windows_for_asns start
+8.983	                       -	                   -	TAL launch still in progress because Finder has not checked in
+8.983	                       -	                   -	Still waiting for registration from Finder
+8.983	                       -	                   -	Liveness: 2 -> 3 (add_app)
+8.983	                       -	                   -	Finder not yet launched, but pretending it is
+9.076	                       -	                   -	_LSSetApplicationInformationItem(kLSDefaultSessionID, asn, _kLSApplicationIsHiddenKey, hidden ? kCFBooleanTrue : kCFBooleanFalse, NULL) produced OSStatus -50 on line 678 in TCApplication.m
+9.076	                       -	                   -	_LSSetApplicationInformationItem(kLSDefaultSessionID, asn, TAL_kLSIsProxiedForTALKey, kCFBooleanTrue, NULL) produced OSStatus -50 on line 681 in TCApplication.m
+9.077	                       -	                   -	loginwindow launched no apps (but we still have to handle Finder)
+9.077	                       -	                   -	Bitmaps Ready (0 apps, 0 windows)
+9.078	        com.apple.finder	                   -	Disposing because it has no windows
+9.078	        com.apple.finder	            Disposed	
+9.078	                       -	                   -	server_show_windows_for_asns end
+9.253	                       -	                   -	TAL launch still in progress because Finder has not checked in
+9.254	                       -	                   -	Still waiting for registration from Finder
+9.335	                       -	                   -	TAL launch still in progress because Finder has not checked in
+9.335	                       -	                   -	Still waiting for registration from Finder
+9.721	                       -	                   -	TAL launch still in progress because Finder has not checked in
+9.721	                       -	                   -	Still waiting for registration from Finder
+9.851	                       -	                   -	TAL launch still in progress because Finder has not checked in
+9.851	                       -	                   -	Still waiting for registration from Finder
+9.941	                       -	                   -	TAL launch still in progress because Finder has not checked in
+9.941	                       -	                   -	Still waiting for registration from Finder
+10.382	        com.apple.finder	                   -	Finder checked in
+10.383	                       -	                   -	All started apps have registered (no remaining unregistered apps)
+10.384	                       -	                   -	TAL Relaunch - all apps registered as ready
+10.384	                       -	                   -	Liveness: 3 -> 2 (__server_show_windows_for_asns_block_invoke30)
+11.078	                       -	                   -	Liveness: 2 -> 1 (__remove_app_block_invoke)
+15.003	                       -	                   -	Liveness: 1 -> 0 (__run_as_server_block_invoke)
+15.003	                       -	                   -	Exiting out of boredom

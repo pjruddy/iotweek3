@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConfigVersion</key>
+	<string>1004.0</string>
+	<key>Content</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs essential sounds and instruments for GarageBand</string>
+					<key>DisplayName</key>
+					<string>Installs essential sounds and instruments for GarageBand</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBCoreContent10</string>
+			<key>Packages</key>
+			<string>GBCoreContentPackage10</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs essential sounds and instruments for GarageBand</string>
+					<key>DisplayName</key>
+					<string>Installs essential sounds and instruments for GarageBand</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBCoreContent10-2</string>
+			<key>Packages</key>
+			<string>GBCoreContentPackage10-2</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs Premium sounds and instruments for GarageBand</string>
+					<key>DisplayName</key>
+					<string>CUP Installs Premium sounds and instruments for GarageBand</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBPremiumContent10</string>
+			<key>Packages</key>
+			<string>GBPremiumContentPackage10</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs additional drummers and stereo Drum Kit Designer kits</string>
+					<key>DisplayName</key>
+					<string>Songwriter Kits</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBStereoDrumKitsSongwriter</string>
+			<key>Packages</key>
+			<string>GBStereoDrumKitsSongwriterPackage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs additional drummers and stereo Drum Kit Designer kits</string>
+					<key>DisplayName</key>
+					<string>Songwriter Kits</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBStereoDrumKitsAlternative</string>
+			<key>Packages</key>
+			<string>GBStereoDrumKitsAlternativePackage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs additional drummers and stereo Drum Kit Designer kits</string>
+					<key>DisplayName</key>
+					<string>Songwriter Kits</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBStereoDrumKitsRock</string>
+			<key>Packages</key>
+			<string>GBStereoDrumKitsRockPackage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Installs additional drummers and stereo Drum Kit Designer kits</string>
+					<key>DisplayName</key>
+					<string>Songwriter Kits</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GBStereoDrumKitsRnB</string>
+			<key>Packages</key>
+			<string>GBStereoDrumKitsRnBPackage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Provides Compatibility with GarageBand for iOS Projects</string>
+					<key>DisplayName</key>
+					<string>GarageBand for iOS Compatibility Content</string>
+				</dict>
+			</array>
+			<key>Name</key>
+			<string>GarageBandforiPadCompatibilityContent</string>
+			<key>Packages</key>
+			<string>MGBContentCompatibility</string>
+			<key>OnlyShowIfOutdated</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Packages</key>
+	<dict>
+		<key>GBCoreContentPackage10</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>MAContent10_GarageBandCoreContent_v3.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Patches/Instrument/Drum Machine/z01 Drum Machine GB/Epic Electro GB.patch</string>
+			<key>DownloadSize</key>
+			<integer>2006240176</integer>
+			<key>InstalledSize</key>
+			<integer>3162646526</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GarageBandCoreContent</string>
+			<key>PackageVersion</key>
+			<string>3</string>
+			<key>ContainsAppleLoops</key>
+			<true/>
+		</dict>
+		<key>GBCoreContentPackage10-2</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>MAContent10_GarageBandCoreContent2.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Ultrabeat Samples/Drum Machine Designer/After Party GB/Block_AfterParty_GB.aif</string>
+			<key>DownloadSize</key>
+			<integer>483640125</integer>
+			<key>InstalledSize</key>
+			<integer>563263186</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GarageBandCoreContent2</string>
+			<key>PackageVersion</key>
+			<string>2</string>
+			<key>ContainsAppleLoops</key>
+			<true/>
+		</dict>
+		<key>GBPremiumContentPackage10</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MAContent10_GarageBandPremiumContent.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Patches/Instrument/Drum Machine/Boutique 808 GB.patch</string>
+			<key>DownloadSize</key>
+			<integer>2006240176</integer>
+			<key>InstalledSize</key>
+			<integer>3162646526</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GarageBandPremiumContent</string>
+			<key>IsPremium</key>
+			<true/>
+			<key>ContainsAppleLoops</key>
+			<true/>
+		</dict>
+		<key>GBStereoDrumKitsSongwriterPackage</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsSongWriter.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Sampler Instruments/03 Drums &amp; Percussion/04 Drum Kit Designer/Drum Kit Designer/Stereo/Bluebird Kit.exs</string>
+			<key>DownloadSize</key>
+			<integer>1219973000</integer>
+			<key>InstalledSize</key>
+			<integer>2188851403</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsSongWriter</string>
+			<key>PackageVersion</key>
+			<string>2</string>
+			<key>IsPremium</key>
+			<true/>
+		</dict>
+		<key>GBStereoDrumKitsAlternativePackage</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsAlternative.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Sampler Instruments/03 Drums &amp; Percussion/04 Drum Kit Designer/Drum Kit Designer/Stereo/Brooklyn Kit.exs</string>
+			<key>DownloadSize</key>
+			<integer>1173517769</integer>
+			<key>InstalledSize</key>
+			<integer>2133716321</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsAlternative</string>
+			<key>IsPremium</key>
+			<true/>
+		</dict>
+		<key>GBStereoDrumKitsRockPackage</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsRock.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Sampler Instruments/03 Drums &amp; Percussion/04 Drum Kit Designer/Drum Kit Designer/Stereo/East Bay Kit.exs</string>
+			<key>DownloadSize</key>
+			<integer>1584343518</integer>
+			<key>InstalledSize</key>
+			<integer>2666008567</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsRock</string>
+			<key>PackageVersion</key>
+			<string>2</string>
+			<key>IsPremium</key>
+			<true/>
+		</dict>
+		<key>GBStereoDrumKitsRnBPackage</key>
+		<dict>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MAContent10_GB_StereoDrumKitsRnB.pkg</string>
+			<key>FileCheck</key>
+			<string>/Library/Application Support/Logic/Sampler Instruments/03 Drums &amp; Percussion/04 Drum Kit Designer/Drum Kit Designer/Stereo/Neo Soul Kit.exs</string>
+			<key>DownloadSize</key>
+			<integer>998492653</integer>
+			<key>InstalledSize</key>
+			<integer>1873826605</integer>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MAContent10_GB_StereoDrumKitsRnB</string>
+			<key>PackageVersion</key>
+			<string>2</string>
+			<key>IsPremium</key>
+			<true/>
+		</dict>
+		<key>MGBContentCompatibility</key>
+		<dict>
+			<key>PackageID</key>
+			<string>com.apple.pkg.MGBContentCompatibility</string>
+			<key>DownloadName</key>
+			<string>../lp10_ms3_content_2013/MGBContentCompatibility.pkg</string>
+			<key>FileCheck</key>
+			<array>
+				<string>/Library/Application Support/GarageBand/Instrument Library/Sampler/Sampler Instruments/Basic Hip Hop Drum Machine.exs</string>
+				<string>/Library/Application Support/GarageBand/Instrument Library/Sampler/Sampler Files/Classical Grand_consolidated_h.caf</string>
+			</array>
+			<key>DownloadSize</key>
+			<integer>387530328</integer>
+			<key>InstalledSize</key>
+			<integer>495888815</integer>
+			<key>PackageVersion</key>
+			<string>2</string>
+			<key>ContainsAppleLoops</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

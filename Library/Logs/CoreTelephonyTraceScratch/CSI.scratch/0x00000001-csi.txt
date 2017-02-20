@@ -1,0 +1,1088 @@
+lservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 92,
+	"kRequest": "kRegisterNotification"
+}
+1.340 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallCapabilitiesChanged(92) (now total 13)
+1.572 [I|13] ids: local IDS device ID is '<CFString 0x7fcab1f3b570 [0x7fff796b3440]>{contents = "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"}'
+1.572 [I|13] ps.ths:init_sync: Bootup switch is:Default, account ID:, fProvisioningApplied:false
+1.572 [I|13] ps.tdm: Created
+1.572 [I|13] ps.ctl: Created
+1.575 [I|13+] ps.ths:handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+1.575 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+1.575 [I|13+] ps.ths:handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+1.575 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+1.575 [I] ids: [i] Initial set of devices: 0 devices
+1.575 [I] ids: [i] No bootstrap info, no need to update remote devices
+1.575 [I] ps.tdm: iCloud status event 'accounts daemon ready' with name ''
+1.575 [I] ps.tdm: iCloud status: not signed, known ID: ''
+1.575 [I] ps.ths:serviceRefresh: userAction:false, reprovisioning:false
+1.575 CopyIMSConfigValue: : EnableThumperByDefault. = NULL
+1.575 [I] ps.ths:serviceRefresh: 0 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+1.575 [I] ps.ths:serviceRefresh: 1 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+1.575 [I] ps.ths:isEnabled: Thumper user switch state is Default ('on'), service status: Disabled; isEnabled return 'false'
+1.575 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper changed
+1.575 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper notification sent, reason: update
+1.576 [I|4+] xpc.event:   --------------> kCTEventCallCapabilitiesChanged(92) sent to 2 (of 2) clients. Full Event: {
+	"kEvent": 92,
+	"kNotificationEvent": 92,
+	"kNotificationDict": {
+		"kCTCapabilityPhoneServices": {
+			"account-details": {
+				"account-list": [],
+				"thumper-calling-support": true,
+				"device-list": [],
+				"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+			},
+			"kCTCapabilityCanSet": false,
+			"kCTCapabilityStatus": false
+		}
+	}
+}
+1.577 [I] xpc: New CTServerConnection from pid 11416 (conn=0x7fcab1c47580).
+1.577 [I] xpc:  -- connection has entitlements: supported=[spi,identity,phone,phone,data-usage,data-allowed,data-allowed-write,voice]
+1.577 [I] xpc.client: CCXpcServer(11416[callservicesd]:'(pending)'/0x7fcab1c47580) request: kWhois. Full request: {
+	"kName": "callservicesd",
+	"kRequest": "kWhois",
+	"kProgName": "callservicesd"
+}
+1.577 [I] xpc.client: CCXpcServer(11416[callservicesd]:'(pending)'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.577 [I|4+] xpc: CTServerConnection from pid 11416[callservicesd] is named 'callservicesd'.
+1.577 [I] xpc.client: CCXpcServer(11416[callservicesd]:'(pending)'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityWiFiCalling",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityVoLTE",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.578 [I] reg: PhoneServices CanSet = false with [<CFBasicHash 0x7fcab1d0c840 [0x7fff796b3440]>{type = mutable dict, count = 3,
+entries =>
+	0 : <CFString 0x10864dfd8 [0x7fff796b3440]>{contents = "kCTCapabilityCanSet"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	1 : <CFString 0x10864dff8 [0x7fff796b3440]>{contents = "kCTCapabilityStatus"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	2 : <CFString 0x10864e118 [0x7fff796b3440]>{contents = "account-details"} = <CFBasicHash 0x7fcab1d206f0 [0x7fff796b3440]>{type = mutable dict, count = 4,
+entries =>
+	0 : <CFString 0x10864e218 [0x7fff796b3440]>{contents = "thumper-calling-support"} = <CFBoolean 0x7fff796b3e40 [0x7fff796b3440]>{value = true}
+	2 : <CFString 0x10864e178 [0x7fff796b3440]>{contents = "device-id"} = <CFString 0x7fcab1f3b570 [0x7fff796b3440]>{contents = "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"}
+	5 : <CFString 0x10864e158 [0x7fff796b3440]>{contents = "account-list"} = (
+)
+	6 : <CFString 0x10864e138 [0x7fff796b3440]>{contents = "device-list"} = (
+)
+}
+
+}
+]
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {
+	"kTelephonyCapabilityInformation": {
+		"account-details": {
+			"account-list": [],
+			"thumper-calling-support": true,
+			"device-list": [],
+			"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+		},
+		"kCTCapabilityCanSet": false,
+		"kCTCapabilityStatus": false
+	},
+	"kTelephonyCapabilityCanSet": false
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.578 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.579 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 115,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 4,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 3,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 6,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 111,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 121,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 95,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 123,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 8,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 171,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 9,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 10,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 164,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 165,
+	"kRequest": "kRegisterNotification"
+}
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 14)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventAlternateCallStatus(115) (now total 15)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallIdentification(4) (now total 16)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallSubType(3) (now total 17)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallControlError(6) (now total 18)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventNewCarrier(111) (now total 19)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventEmergencyCallBackModeStatus(121) (now total 20)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallDropToneComplete(95) (now total 21)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventDTMFDigitsChanged(123) (now total 22)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallAudioToneRelay(8) (now total 23)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventSetupAudioInterruptionsChanged(171) (now total 24)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallMediaStatusActive(9) (now total 25)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallMediaStatusInactive(10) (now total 26)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallInputFrequencyLevel(164) (now total 27)
+1.580 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallOutputFrequencyLevel(165) (now total 28)
+1.583 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kCallModelGetAllCallInfo, expects reply. Full request: {
+	"kRequest": "kCallModelGetAllCallInfo",
+	"kCallTypes": 3
+}
+1.583 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) reply to request 'kCallModelGetAllCallInfo'. Full reply: {
+	"kCallArray": []
+}
+1.585 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fcab1c627b0) request: kRegisterNotification. Full request: {
+	"kEvent": 166,
+	"kRequest": "kRegisterNotification"
+}
+1.585 [I|4+] xpc:   ==== client 11416 (callservicesd-CTTelephonyCenter) registered for event kCTEventPullCallIsPossible(166) (now total 29)
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityWiFiCalling",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityVoLTE",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.586 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.587 [I] reg: PhoneServices CanSet = false with [<CFBasicHash 0x7fcab1d0c840 [0x7fff796b3440]>{type = mutable dict, count = 3,
+entries =>
+	0 : <CFString 0x10864dfd8 [0x7fff796b3440]>{contents = "kCTCapabilityCanSet"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	1 : <CFString 0x10864dff8 [0x7fff796b3440]>{contents = "kCTCapabilityStatus"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	2 : <CFString 0x10864e118 [0x7fff796b3440]>{contents = "account-details"} = <CFBasicHash 0x7fcab1d206f0 [0x7fff796b3440]>{type = mutable dict, count = 4,
+entries =>
+	0 : <CFString 0x10864e218 [0x7fff796b3440]>{contents = "thumper-calling-support"} = <CFBoolean 0x7fff796b3e40 [0x7fff796b3440]>{value = true}
+	2 : <CFString 0x10864e178 [0x7fff796b3440]>{contents = "device-id"} = <CFString 0x7fcab1f3b570 [0x7fff796b3440]>{contents = "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"}
+	5 : <CFString 0x10864e158 [0x7fff796b3440]>{contents = "account-list"} = (
+)
+	6 : <CFString 0x10864e138 [0x7fff796b3440]>{contents = "device-list"} = (
+)
+}
+
+}
+]
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {
+	"kTelephonyCapabilityInformation": {
+		"account-details": {
+			"account-list": [],
+			"thumper-calling-support": true,
+			"device-list": [],
+			"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+		},
+		"kCTCapabilityCanSet": false,
+		"kCTCapabilityStatus": false
+	},
+	"kTelephonyCapabilityCanSet": false
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.587 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.588 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityWiFiCalling",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityVoLTE",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+1.589 [I] reg: PhoneServices CanSet = false with [<CFBasicHash 0x7fcab1d0c840 [0x7fff796b3440]>{type = mutable dict, count = 3,
+entries =>
+	0 : <CFString 0x10864dfd8 [0x7fff796b3440]>{contents = "kCTCapabilityCanSet"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	1 : <CFString 0x10864dff8 [0x7fff796b3440]>{contents = "kCTCapabilityStatus"} = <CFBoolean 0x7fff796b3e50 [0x7fff796b3440]>{value = false}
+	2 : <CFString 0x10864e118 [0x7fff796b3440]>{contents = "account-details"} = <CFBasicHash 0x7fcab1d206f0 [0x7fff796b3440]>{type = mutable dict, count = 4,
+entries =>
+	0 : <CFString 0x10864e218 [0x7fff796b3440]>{contents = "thumper-calling-support"} = <CFBoolean 0x7fff796b3e40 [0x7fff796b3440]>{value = true}
+	2 : <CFString 0x10864e178 [0x7fff796b3440]>{contents = "device-id"} = <CFString 0x7fcab1f3b570 [0x7fff796b3440]>{contents = "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"}
+	5 : <CFString 0x10864e158 [0x7fff796b3440]>{contents = "account-list"} = (
+)
+	6 : <CFString 0x10864e138 [0x7fff796b3440]>{contents = "device-list"} = (
+)
+}
+
+}
+]
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kRegistrationGetProperty'. Full reply: {
+	"kTelephonyCapabilityInformation": {
+		"account-details": {
+			"account-list": [],
+			"thumper-calling-support": true,
+			"device-list": [],
+			"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+		},
+		"kCTCapabilityCanSet": false,
+		"kCTCapabilityStatus": false
+	},
+	"kTelephonyCapabilityCanSet": false
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.589 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+1.590 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+1.591 [I] xpc.client: CCXpcServer(11416[callservicesd]:'callservicesd'/0x7fcab1c47580) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "56E1A7CA-AA82-43D7-84A2-E9E33AAFCDEE"
+	}
+}
+2.322 [I] csiapp.info: Application exited: AppInfo[sharingd, , false, 11424, 0]
+10.039 [I] csiapp.info: Application launched: AppInfo[activateSettings, , true, 11438, 0]
+10.128 [I] csiapp.info: Application exited: AppInfo[activateSettings, , false, 11438, 0]
+10.469 [I] csiapp.info: Application launched: AppInfo[iTunesHelper, com.apple.ituneshelper, true, 11467, 0]
+10.585 [I] csiapp.info: Application exited: AppInfo[SecurityAgent, com.apple.securityagent, false, 11353, 0]
+10.718 [I] csiapp.info: Application exited: AppInfo[AOSHeartbeat, com.apple.aosheartbeat, false, 11399, 0]
+12.806 [I] csiapp.info: Application launched: AppInfo[AppleSpell.service, com.apple.applespell, true, 11474, 0]
+12.975 [I] csiapp.info: Application exited: AppInfo[AppleSpell, com.apple.applespell, false, 11475, 0]
+15.250 [I] xpc.watchdog: Callback Watchdog: checkin
+15.250 [I] xpc: New CTServerConnection from pid 11389 (conn=0x7fcab1f39db0).
+15.250 [I] xpc:  -- connection has entitlements: supported=[spi,sim-authentication,identity]
+15.250 [I] xpc.watchdog: Server Watchdog: checkin
+15.695 [I] csiapp.info: Application exited: AppInfo[talagent, com.apple.talagent, false, 11405, 0]
+29.750 [I] csiapp.info: Application exited: AppInfo[Stocks, com.apple.ncplugin.stocks, false, 11477, 0]
+30.088 [I] csiapp.info: Application exited: AppInfo[Weather, com.apple.ncplugin.weather, false, 11478, 0]
+30.245 [I] xpc.watchdog: Callback Watchdog: checkin
+30.245 [I] xpc.watchdog: Server Watchdog: checkin
+30.249 [I] csiapp.info: Application exited: AppInfo[Calendar, com.apple.ical.calendarnc, false, 11479, 0]
+40.016 [I] csiapp.info: Application exited: AppInfo[UserNotificationCenter, com.apple.usernotificationcenter, false, 11426, 0]
+40.551 [I] csiapp.info: Application exited: AppInfo[universalaccessd, , false, 11387, 0]
+45.201 [I] xpc.watchdog: Callback Watchdog: checkin
+45.201 [I] xpc.watchdog: Server Watchdog: checkin
+60.177 [I] xpc.watchdog: Callback Watchdog: checkin
+60.177 [I] xpc.watchdog: Server Watchdog: checkin
+75.251 [I] xpc.watchdog: Callback Watchdog: checkin
+75.251 [I] xpc.watchdog: Server Watchdog: checkin
+90.250 [I] xpc.watchdog: Callback Watchdog: checkin
+90.250 [I] xpc.watchdog: Server Watchdog: checkin
+105.250 [I] xpc.watchdog: Callback Watchdog: checkin
+105.250 [I] xpc.watchdog: Server Watchdog: checkin
+120.177 [I] xpc.watchdog: Callback Watchdog: checkin
+120.177 [I] xpc.watchdog: Server Watchdog: checkin
+135.186 [I] xpc.watchdog: Callback Watchdog: checkin
+135.186 [I] xpc.watchdog: Server Watchdog: checkin
+150.249 [I] xpc.watchdog: Callback Watchdog: checkin
+150.249 [I] xpc.watchdog: Server Watchdog: checkin
+165.249 [I] xpc.watchdog: Callback Watchdog: checkin
+165.249 [I] xpc.watchdog: Server Watchdog: checkin
+180.223 [I] xpc.watchdog: Callback Watchdog: checkin
+180.223 [I] xpc.watchdog: Server Watchdog: checkin
+195.228 [I] xpc.watchdog: Callback Watchdog: checkin
+195.228 [I] xpc.watchdog: Server Watchdog: checkin
+210.223 [I] xpc.watchdog: Callback Watchdog: checkin
+210.223 [I] xpc.watchdog: Server Watchdog: checkin
+225.223 [I] xpc.watchdog: Callback Watchdog: checkin
+225.223 [I] xpc.watchdog: Server Watchdog: checkin
+240.240 [I] xpc.watchdog: Callback Watchdog: checkin
+240.240 [I] xpc.watchdog: Server Watchdog: checkin
+255.248 [I] xpc.watchdog: Callback Watchdog: checkin
+255.248 [I] xpc.watchdog: Server Watchdog: checkin
+270.247 [I] xpc.watchdog: Callback Watchdog: checkin
+270.248 [I] xpc.watchdog: Server Watchdog: checkin
+285.247 [I] xpc.watchdog: Callback Watchdog: checkin
+285.247 [I] xpc.watchdog: Server Watchdog: checkin
+300.247 [I] xpc.watchdog: Callback Watchdog: checkin
+300.247 [I] xpc.watchdog: Server Watchdog: checkin
+315.247 [I] xpc.watchdog: Callback Watchdog: checkin
+315.247 [I] xpc.watchdog: Server Watchdog: checkin
+330.247 [I] xpc.watchdog: Callback Watchdog: checkin
+330.247 [I] xpc.watchdog: Server Watchdog: checkin
+345.246 [I] xpc.watchdog: Callback Watchdog: checkin
+345.246 [I] xpc.watchdog: Server Watchdog: checkin
+360.246 [I] xpc.watchdog: Callback Watchdog: checkin
+360.246 [I] xpc.watchdog: Server Watchdog: checkin
+375.246 [I] xpc.watchdog: Callback Watchdog: checkin
+375.246 [I] xpc.watchdog: Server Watchdog: checkin
+390.210 [I] xpc.watchdog: Callback Watchdog: checkin
+390.210 [I] xpc.watchdog: Server Watchdog: checkin
+405.245 [I] xpc.watchdog: Callback Watchdog: checkin
+405.245 [I] xpc.watchdog: Server Watchdog: checkin
+420.245 [I] xpc.watchdog: Callback Watchdog: checkin
+420.245 [I] xpc.watchdog: Server Watchdog: checkin
+423.173 [I] csiapp.info: Application launched: AppInfo[Firefox, org.mozilla.firefox, true, 11495, 0]
+435.170 [I] xpc.watchdog: Callback Watchdog: checkin
+435.170 [I] xpc.watchdog: Server Watchdog: checkin
+450.225 [I] xpc.watchdog: Callback Watchdog: checkin
+450.225 [I] xpc.watchdog: Server Watchdog: checkin
+465.179 [I] xpc.watchdog: Callback Watchdog: checkin
+465.179 [I] xpc.watchdog: Server Watchdog: checkin
+480.179 [I] xpc.watchdog: Callback Watchdog: checkin
+480.179 [I] xpc.watchdog: Server Watchdog: checkin
+495.206 [I] xpc.watchdog: Callback Watchdog: checkin
+495.206 [I] xpc.watchdog: Server Watchdog: checkin
+510.244 [I] xpc.watchdog: Callback Watchdog: checkin
+510.244 [I] xpc.watchdog: Server Watchdog: checkin
+525.173 [I] xpc.watchdog: Callback Watchdog: checkin
+525.173 [I] xpc.watchdog: Server Watchdog: checkin
+540.190 [I] xpc.watchdog: Callback Watchdog: checkin
+540.190 [I] xpc.watchdog: Server Watchdog: checkin
+555.243 [I] xpc.watchdog: Callback Watchdog: checkin
+555.243 [I] xpc.watchdog: Server Watchdog: checkin
+570.181 [I] xpc.watchdog: Callback Watchdog: checkin
+570.181 [I] xpc.watchdog: Server Watchdog: checkin
+585.196 [I] xpc.watchdog: Callback Watchdog: checkin
+585.196 [I] xpc.watchdog: Server Watchdog: checkin
+600.212 [I] xpc.watchdog: Callback Watchdog: checkin
+600.212 [I] xpc.watchdog: Server Watchdog: checkin
+615.227 [I] xpc.watchdog: Callback Watchdog: checkin
+615.227 [I] xpc.watchdog: Server Watchdog: checkin
+630.242 [I] xpc.watchdog: Callback Watchdog: checkin
+630.242 [I] xpc.watchdog: Server Watchdog: checkin
+645.211 [I] xpc.watchdog: Callback Watchdog: checkin
+645.211 [I] xpc.watchdog: Server Watchdog: checkin
+660.242 [I] xpc.watchdog: Callback Watchdog: checkin
+660.242 [I] xpc.watchdog: Server Watchdog: checkin
+675.241 [I] xpc.watchdog: Callback Watchdog: checkin
+675.241 [I] xpc.watchdog: Server Watchdog: checkin
+690.241 [I] xpc.watchdog: Callback Watchdog: checkin
+690.241 [I] xpc.watchdog: Server Watchdog: checkin
+705.241 [I] xpc.watchdog: Callback Watchdog: checkin
+705.241 [I] xpc.watchdog: Server Watchdog: checkin
+720.167 [I] xpc.watchdog: Callback Watchdog: checkin
+720.167 [I] xpc.watchdog: Server Watchdog: checkin
+735.241 [I] xpc.watchdog: Callback Watchdog: checkin
+735.241 [I] xpc.watchdog: Server Watchdog: checkin
+750.231 [I] xpc.watchdog: Callback Watchdog: checkin
+750.231 [I] xpc.watchdog: Server Watchdog: checkin
+765.223 [I] xpc.watchdog: Callback Watchdog: checkin
+765.223 [I] xpc.watchdog: Server Watchdog: checkin
+780.240 [I] xpc.watchdog: Callback Watchdog: checkin
+780.240 [I] xpc.watchdog: Server Watchdog: checkin
+795.197 [I] xpc.watchdog: Callback Watchdog: checkin
+795.197 [I] xpc.watchdog: Server Watchdog: checkin
+810.166 [I] xpc.watchdog: Callback Watchdog: checkin
+810.166 [I] xpc.watchdog: Server Watchdog: checkin
+825.184 [I] xpc.watchdog: Callback Watchdog: checkin
+825.184 [I] xpc.watchdog: Server Watchdog: checkin
+840.202 [I] xpc.watchdog: Callback Watchdog: checkin
+840.202 [I] xpc.watchdog: Server Watchdog: checkin
+855.220 [I] xpc.watchdog: Callback Watchdog: checkin
+855.220 [I] xpc.watchdog: Server Watchdog: checkin
+870.238 [I] xpc.watchdog: Callback Watchdog: checkin
+870.238 [I] xpc.watchdog: Server Watchdog: checkin
+885.178 [I] xpc.watchdog: Callback Watchdog: checkin
+885.179 [I] xpc.watchdog: Server Watchdog: checkin
+900.194 [I] xpc.watchdog: Callback Watchdog: checkin
+900.194 [I] xpc.watchdog: Server Watchdog: checkin
+915.210 [I] xpc.watchdog: Callback Watchdog: checkin
+915.210 [I] xpc.watchdog: Server Watchdog: checkin
+930.226 [I] xpc.watchdog: Callback Watchdog: checkin
+930.226 [I] xpc.watchdog: Server Watchdog: checkin
+945.163 [I] xpc.watchdog: Callback Watchdog: checkin
+945.163 [I] xpc.watchdog: Server Watchdog: checkin
+960.162 [I] xpc.watchdog: Callback Watchdog: checkin
+960.162 [I] xpc.watchdog: Server Watchdog: checkin
+961.614 [I] csiapp.info: Application launched: AppInfo[Safari, com.apple.safari, true, 11499, 0]
+975.162 [I] xpc.watchdog: Callback Watchdog: checkin
+975.162 [I] xpc.watchdog: Server Watchdog: checkin
+990.213 [I] xpc.watchdog: Callback Watchdog: checkin
+990.213 [I] xpc.watchdog: Server Watchdog: checkin
+1005.234 [I] xpc.watchdog: Callback Watchdog: checkin
+1005.234 [I] xpc.watchdog: Server Watchdog: checkin
+1020.217 [I] xpc.watchdog: Callback Watchdog: checkin
+1020.217 [I] xpc.watchdog: Server Watchdog: checkin
+1035.180 [I] xpc.watchdog: Callback Watchdog: checkin
+1035.180 [I] xpc.watchdog: Server Watchdog: checkin
+1050.173 [I] xpc.watchdog: Callback Watchdog: checkin
+1050.173 [I] xpc.watchdog: Server Watchdog: checkin
+1065.161 [I] xpc.watchdog: Callback Watchdog: checkin
+1065.161 [I] xpc.watchdog: Server Watchdog: checkin
+1080.161 [I] xpc.watchdog: Callback Watchdog: checkin
+1080.161 [I] xpc.watchdog: Server Watchdog: checkin
+1095.194 [I] xpc.watchdog: Callback Watchdog: checkin
+1095.194 [I] xpc.watchdog: Server Watchdog: checkin
+1110.235 [I] xpc.watchdog: Callback Watchdog: checkin
+1110.235 [I] xpc.watchdog: Server Watchdog: checkin
+1125.233 [I] xpc.watchdog: Callback Watchdog: checkin
+1125.233 [I] xpc.watchdog: Server Watchdog: checkin
+1140.235 [I] xpc.watchdog: Callback Watchdog: checkin
+1140.235 [I] xpc.watchdog: Server Watchdog: checkin
+1155.235 [I] xpc.watchdog: Callback Watchdog: checkin
+1155.235 [I] xpc.watchdog: Server Watchdog: checkin
+1170.234 [I] xpc.watchdog: Callback Watchdog: checkin
+1170.234 [I] xpc.watchdog: Server Watchdog: checkin
+1185.234 [I] xpc.watchdog: Callback Watchdog: checkin
+1185.234 [I] xpc.watchdog: Server Watchdog: checkin
+1200.234 [I] xpc.watchdog: Callback Watchdog: checkin
+1200.234 [I] xpc.watchdog: Server Watchdog: checkin
+1215.176 [I] xpc.watchdog: Callback Watchdog: checkin
+1215.176 [I] xpc.watchdog: Server Watchdog: checkin
+1230.160 [I] xpc.watchdog: Callback Watchdog: checkin
+1230.160 [I] xpc.watchdog: Server Watchdog: checkin
+1245.168 [I] xpc.watchdog: Callback Watchdog: checkin
+1245.168 [I] xpc.watchdog: Server Watchdog: checkin
+1260.220 [I] xpc.watchdog: Callback Watchdog: checkin
+1260.220 [I] xpc.watchdog: Server Watchdog: checkin
+1275.158 [I] xpc.watchdog: Callback Watchdog: checkin
+1275.158 [I] xpc.watchdog: Server Watchdog: checkin
+1290.212 [I] xpc.watchdog: Callback Watchdog: checkin
+1290.212 [I] xpc.watchdog: Server Watchdog: checkin
+1305.232 [I] xpc.watchdog: Callback Watchdog: checkin
+1305.232 [I] xpc.watchdog: Server Watchdog: checkin
+1320.223 [I] xpc.watchdog: Callback Watchdog: checkin
+1320.223 [I] xpc.watchdog: Server Watchdog: checkin
+1335.157 [I] xpc.watchdog: Callback Watchdog: checkin
+1335.157 [I] xpc.watchdog: Server Watchdog: checkin
+1350.232 [I] xpc.watchdog: Callback Watchdog: checkin
+1350.232 [I] xpc.watchdog: Server Watchdog: checkin
+1365.231 [I] xpc.watchdog: Callback Watchdog: checkin
+1365.231 [I] xpc.watchdog: Server Watchdog: checkin
+1380.231 [I] xpc.watchdog: Callback Watchdog: checkin
+1380.231 [I] xpc.watchdog: Server Watchdog: checkin
+1395.231 [I] xpc.watchdog: Callback Watchdog: checkin
+1395.231 [I] xpc.watchdog: Server Watchdog: checkin
+1410.231 [I] xpc.watchdog: Callback Watchdog: checkin
+1410.231 [I] xpc.watchdog: Server Watchdog: checkin
+1425.155 [I] xpc.watchdog: Callback Watchdog: checkin
+1425.155 [I] xpc.watchdog: Server Watchdog: checkin
+1440.230 [I] xpc.watchdog: Callback Watchdog: checkin
+1440.230 [I] xpc.watchdog: Server Watchdog: checkin
+1455.155 [I] xpc.watchdog: Callback Watchdog: checkin
+1455.155 [I] xpc.watchdog: Server Watchdog: checkin
+1470.155 [I] xpc.watchdog: Callback Watchdog: checkin
+1470.155 [I] xpc.watchdog: Server Watchdog: checkin
+1485.214 [I] xpc.watchdog: Callback Watchdog: checkin
+1485.214 [I] xpc.watchdog: Server Watchdog: checkin
+1500.209 [I] xpc.watchdog: Callback Watchdog: checkin
+1500.209 [I] xpc.watchdog: Server Watchdog: checkin
+1515.229 [I] xpc.watchdog: Callback Watchdog: checkin
+1515.229 [I] xpc.watchdog: Server Watchdog: checkin
+1530.183 [I] xpc.watchdog: Callback Watchdog: checkin
+1530.183 [I] xpc.watchdog: Server Watchdog: checkin
+1545.153 [I] xpc.watchdog: Callback Watchdog: checkin
+1545.154 [I] xpc.watchdog: Server Watchdog: checkin
+1560.166 [I] xpc.watchdog: Callback Watchdog: checkin
+1560.166 [I] xpc.watchdog: Server Watchdog: checkin
+1575.153 [I] xpc.watchdog: Callback Watchdog: checkin
+1575.153 [I] xpc.watchdog: Server Watchdog: checkin
+1590.194 [I] xpc.watchdog: Callback Watchdog: checkin
+1590.194 [I] xpc.watchdog: Server Watchdog: checkin
+1605.153 [I] xpc.watchdog: Callback Watchdog: checkin
+1605.153 [I] xpc.watchdog: Server Watchdog: checkin
+1620.220 [I] xpc.watchdog: Callback Watchdog: checkin
+1620.220 [I] xpc.watchdog: Server Watchdog: checkin
+1635.183 [I] xpc.watchdog: Callback Watchdog: checkin
+1635.183 [I] xpc.watchdog: Server Watchdog: checkin
+1650.186 [I] xpc.watchdog: Callback Watchdog: checkin
+1650.186 [I] xpc.watchdog: Server Watchdog: checkin
+1665.152 [I] xpc.watchdog: Callback Watchdog: checkin
+1665.152 [I] xpc.watchdog: Server Watchdog: checkin
+1680.151 [I] xpc.watchdog: Callback Watchdog: checkin
+1680.152 [I] xpc.watchdog: Server Watchdog: checkin
+1689.292 [I] csiapp.info: Application exited: AppInfo[Flash Player (Safari Internet plug-in), com.apple.webkit.plugin.64, false, 11511, 0]
+1695.212 [I] xpc.watchdog: Callback Watchdog: checkin
+1695.212 [I] xpc.watchdog: Server Watchdog: checkin
+1710.196 [I] xpc.watchdog: Callback Watchdog: checkin
+1710.196 [I] xpc.watchdog: Server Watchdog: checkin
+1725.214 [I] xpc.watchdog: Callback Watchdog: checkin
+1725.214 [I] xpc.watchdog: Server Watchdog: checkin
+1738.348 [I] csiapp.info: Application exited: AppInfo[UserNotificationCenter, com.apple.usernotificationcenter, false, 11515, 0]
+1740.167 [I] xpc.watchdog: Callback Watchdog: checkin
+1740.167 [I] xpc.watchdog: Server Watchdog: checkin
+1755.163 [I] xpc.watchdog: Callback Watchdog: checkin
+1755.163 [I] xpc.watchdog: Server Watchdog: checkin
+1770.166 [I] xpc.watchdog: Callback Watchdog: checkin
+1770.166 [I] xpc.watchdog: Server Watchdog: checkin
+1785.150 [I] xpc.watchdog: Callback Watchdog: checkin
+1785.150 [I] xpc.watchdog: Server Watchdog: checkin
+1800.209 [I] xpc.watchdog: Callback Watchdog: checkin
+1800.209 [I] xpc.watchdog: Server Watchdog: checkin
+1815.199 [I] xpc.watchdog: Callback Watchdog: checkin
+1815.199 [I] xpc.watchdog: Server Watchdog: checkin
+1830.215 [I] xpc.watchdog: Callback Watchdog: checkin
+1830.215 [I] xpc.watchdog: Server Watchdog: checkin
+1845.181 [I] xpc.watchdog: Callback Watchdog: checkin
+1845.181 [I] xpc.watchdog: Server Watchdog: checkin
+1847.036 [I] DataNetworkMonitorOSX:handleNetworkStateChanged_sync: nwi_state: 0x7fcab1f3d510
+1847.036 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+1847.036 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: Primary interface 'en0' has not changed
+1847.036 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+1847.036 [I] NOBB:NoBBRadioModule:handleWifiAvailable: available = true
+1847.036 [I|20+] 5wi.wifi: fWifiInterfaceName changes from en0 to en0
+1847.036 [I] NOBB:NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable true
+1847.036 [I] DATA:TechDriver:handleWifiAvailable_sync: available = true  on [en0]
+1847.036 [I] evt: Firing event 'RATChanged': with params= kRatLTE
+1847.036 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+1847.036 [I] evt: Firing event 'dataAttached'
+1847.036 [I] DATA:TechContext:0:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1847.036 [I] DATA:TechContext:0:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1847.036 [I] DATA:TechContext:1:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1847.036 [I] evt: Firing event 'dataModeChanged': with params= kLTE, kLTE
+1847.036 [I] DATA:TechContext:1:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1847.036 [I] evt: Firing event 'bearerAvailable': with params= 1, kLTE
+1847.036 [I|24+] server: ================================================================================================
+1847.036 [I|24] server: Device got PS Registered, checking to send Activation report to the server
+1847.036 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+1847.036 [I|24] server: Cannot send the report, Activation Activity Handler State: Service Provisioned: false, CS Registered: false, PS Registered: true, PDP Activated: false, MCC: , MNC: 
+1847.036 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+1847.036 [I|24] server: Activation activity report result: SendReportResult::kNotReadyToSend
+1847.036 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.036 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.036 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] DATA:ServiceController:recalculateConnectionAvailability: nothing changed due to Wifi Changed
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: 
+1847.037 [I] data: no TechSettings dictionary can be found
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: for 0
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: APN info not present
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: APN info not present
+1847.037 [I] DATA:TechContext:0:stopUsing: 
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: for 1
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: APN info not present
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: APN info not present
+1847.037 [I] DATA:TechContext:1:stopUsing: 
+1847.037 [I] DATA:TechDriver:refreshAllDataSettings: 
+1847.037 [I] DATA:iRatController:subscribeLineTypes_sync: with app Types ()
+1847.037 [I] DATA:iRatController:subscribeLineTypes_sync: Subscribe app Types not changed
+1847.037 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Tech setup reconfigured
+1847.037 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, DataServiceController activation
+1847.037 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+1847.037 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] DATA:ServiceController:recalculateConnectionAvailability: nothing changed due to Tech setup reconfigured
+1847.037 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+1847.037 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1847.037 [I] DATA:ServiceController:recalculateConnectionAvailability: Internal event: If(-3), Vf(-3), Mf(-3), Ef(-3), Wf(-3), wf(-3), Pf(-3), Df(-3), Tf(-3), Of(-3), Ff(-3), ff(-3), mf(-3), of(-3), Zf(-3), $f(-3), if(-3), Sf(-3), 9f(-3), Bf(-3), Uf(-3), bf(-3) due to DataServiceController activation
+1847.037 [I] evt: Firing event 'connectionAvailability': with params= 0, { f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3)}
+1847.037 [I] DATA:ServiceController:recalculateConnectionAvailability: sending CT event due to DataServiceController activation
+1847.037 [I] DATA:TechDriver:handleConnectionAvailability: cellInternetAvailable = false
+1847.037 [I|4+] xpc.event:   --------------> kCTEventDataServiceAvailability(157) sent to 0 (of 4) clients. Full Event: {
+	"kEvent": 157,
+	"kNotificationEvent": 157,
+	"kNotificationDict": {
+		"kCTRegistrationDataConnectionServices": []
+	}
+}
+1858.096 [I] DataNetworkMonitorOSX:handleNetworkStateChanged_sync: nwi_state: 0x7fcab1f4ac90
+1858.096 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+1858.096 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: Primary interface 'en0' has not changed
+1858.096 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+1858.096 [I|20+] 5wi.wifi: fWifiInterfaceName changes from en0 to en0
+1858.096 [I] DATA:TechDriver:handleWifiAvailable_sync: available = true  on [en0]
+1858.096 [I] NOBB:NoBBRadioModule:handleWifiAvailable: available = true
+1858.096 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+1858.096 [I] DATA:TechContext:0:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1858.096 [I] DATA:TechContext:0:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1858.096 [I] DATA:TechContext:1:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1858.096 [I] DATA:TechContext:1:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1858.096 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+1858.096 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1858.096 [I] DATA:ServiceController:recalculateConnectionAvailability: nothing changed due to Wifi Changed
+1860.149 [I] xpc.watchdog: Callback Watchdog: checkin
+1860.149 [I] xpc.watchdog: Server Watchdog: checkin
+1860.953 [I] csiapp.info: Application launched: AppInfo[Arduino, cc.arduino.arduino, true, 11532, 0]
+1863.752 [I] DataNetworkMonitorOSX:handleNetworkStateChanged_sync: nwi_state: 0x7fcab1f4b9f0
+1863.752 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+1863.752 [I] DataNetworkMonitorOSX:checkIPConnectivity_sync: Primary interface 'en0' has not changed
+1863.752 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0,en1}
+1863.752 [I] DATA:TechDriver:handleWifiAvailable_sync: available = true  on [en0,en1]
+1863.752 [I|20+] 5wi.wifi: fWifiInterfaceName changes from en0 to en0
+1863.752 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+1863.752 [I] DATA:TechContext:0:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1863.752 [I] NOBB:NoBBRadioModule:handleWifiAvailable: available = true
+1863.752 [I] DATA:TechContext:0:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1863.752 [I] DATA:TechContext:1:handleWifiAvailable_sync: Looking for en0 in updated interface list
+1863.752 [I] DATA:TechContext:1:handleWifiAvailable_sync: Interface en0 is still present in updated interface list
+1863.752 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+1863.752 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+1863.752 [I] DATA:ServiceController:recalculateConnectionAvailability: nothing changed due to Wifi Changed
+1875.148 [I] xpc.watchdog: Callback Watchdog: checkin
+1875.148 [I] xpc.watchdog: Server Watchdog: checkin
+1890.168 [I] xpc.watchdog: Callback Watchdog: checkin
+1890.168 [I] xpc.watchdog: Server Watchdog: checkin
+1905.197 [I] xpc.watchdog: Callback Watchdog: checkin
+1905.197 [I] xpc.watchdog: Server Watchdog: checkin
+1920.213 [I] xpc.watchdog: Callback Watchdog: checkin
+1920.213 [I] xpc.watchdog: Server Watchdog: checkin
+1935.148 [I] xpc.watchdog: Callback Watchdog: checkin
+1935.148 [I] xpc.watchdog: Server Watchdog: checkin
+1950.147 [I] xpc.watchdog: Callback Watchdog: checkin
+1950.147 [I] xpc.watchdog: Server Watchdog: checkin
+1965.147 [I] xpc.watchdog: Callback Watchdog: checkin
+1965.147 [I] xpc.watchdog: Server Watchdog: checkin
+1980.178 [I] xpc.watchdog: Callback Watchdog: checkin
+1980.178 [I] xpc.watchdog: Server Watchdog: checkin
+1995.210 [I] xpc.watchdog: Callback Watchdog: checkin
+1995.210 [I] xpc.watchdog: Server Watchdog: checkin
+2010.210 [I] xpc.watchdog: Callback Watchdog: checkin
+2010.210 [I] xpc.watchdog: Server Watchdog: checkin
+2025.199 [I] xpc.watchdog: Callback Watchdog: check
